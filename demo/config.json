@@ -1,7 +1,0 @@
-{
-  "source":       ".",
-  "template": "../template",
-  "css": [
-    "public/styles.css"
-  ]
-}
