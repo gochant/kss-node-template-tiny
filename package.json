@@ -1,0 +1,13 @@
+{
+  "name": "kss-node-template-tiny",
+  "version": "0.1.0",
+  "description": "A kss-node template.",
+  "main": "template_config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "./node_modules/.bin/lessc --verbose --compress template/public/kss.less template/public/kss.css"
+  },
+  "devDependencies": {
+    "less": "^2.1.1"
+  }
+}

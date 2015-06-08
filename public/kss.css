@@ -180,7 +180,7 @@
   border-bottom: 1px solid #cfcfcf;
   margin-bottom: 10px;
   *color: pink;
-  *filter: chroma(color=#ffc0cb);
+  *filter: chroma(color=pink);
   height: 10px;
   *margin: -7px 0 2px;
 }
@@ -523,18 +523,19 @@
 }
 #kss-node .kss-modifier__name,
 #kss-node .kss-modifier__default-name {
-  float: left;
-  padding-right: 10px;
+  /*float: left;
+        padding-right: 10px;*/
   font-weight: bold;
   display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
+  /*position: absolute;
+        top: 0;
+        right: 0;*/
   padding: 5px 15px;
   margin: 0;
   background: #f9f9f9;
   border: 1px solid #eee;
   border-top: 0;
+  border-left: 2px solid green;
 }
 #kss-node .kss-modifier__description {
   color: #999;
@@ -588,3 +589,4 @@
 #kss-node .kss-github img {
   border: 0;
 }
+/*# sourceMappingURL=kss.css.map */

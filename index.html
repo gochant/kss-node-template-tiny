@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lte IE 6]>            <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IEMobile 7]>          <html class="no-js iem7" lang="en"> <![endif]-->
 <!--[if (IE 7)&(!IEMobile)]>  <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -6,17 +6,16 @@
 <!--[if (gte IE 9)|(gt IEMobile 7)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Tiny: Living Style Guide</title>
+    <title>{{options.title}} Styleguide</title>
 
   <meta name="description" content="">
   <meta name="generator" content="kss-node">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="public/kss.css">
-
 
   <link href="public/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
   <link href="public/bootstrap-custom.css" rel="stylesheet" />
   <link href="public/vs.css" rel="stylesheet" />
+  <link rel="stylesheet" href="public/kss.css">
   {{{styles}}}
   <!--[if lte IE 8]>
     <script src="public/html5shiv.js"></script>
@@ -30,8 +29,8 @@
 <div class="kss-sidebar kss-style">
   <header class="kss-header">
       <h1 class="kss-doc-title">
-          <span style="color:green;font-size: 140%;font-weight:bold;">Kss</span>
-          Styleguide
+          <span style="color:green;font-size: 140%;font-weight:bold;">{{options.title}}</span>
+            Styleguide
           <i class="fa fa-leaf" style="color:green;vertical-align: super;"></i>
       </h1>
   </header>
@@ -122,9 +121,9 @@
         </div>
           <div class="kss-modifier__item">
       {{#if modifiers}}
-        <div class="kss-modifier__default-name kss-style">
+        <!--<div class="kss-modifier__default-name kss-style">
           (default)
-        </div>
+        </div>-->
       {{/if}}
         <div class="kss-modifier__example">
           {{{markup}}}
